@@ -1,0 +1,45 @@
+1.	Defina o uso do banco de dados "cursos"
+Use cursos
+
+2.	Crie uma collection para armazenar as "matérias"
+db.creatCollection("materias")
+
+3.	Insira 5 novos registros conforme descrições abaixo:
+db.materias.insertMany({
+Titulo : "Titulo U"
+Descriçao : "Java"
+Concluída : true
+}, 
+
+{
+Titulo : "Titulo O"
+Descriçao : "CSharp"
+Concluída : false
+}, 
+
+{
+Titulo : "Titulo P"
+Descriçao : "Firebase"
+}, 
+
+{
+Titulo : "Titulo Y"
+Descriçao : "Microsoft"
+}, 
+
+{
+Titulo : "Titulo R"
+Descrição : "Oracle"
+Data_de_Inclusão : "09/12/2021"
+})
+
+
+
+
+
+
+
+
+
+
+
